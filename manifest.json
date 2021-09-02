@@ -1,0 +1,14 @@
+{
+  "name": "smart2po",
+  "description" : "submits active url to the local smart2po application server",
+  "version": "0.2",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["./background.js"]
+  },
+  "permissions": ["tabs"],
+  "browser_action": {
+		"default_icon": "android-icon-128x128.png",
+		"default_title": "Smart2Po Opera Extension"
+	}
+}
